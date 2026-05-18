@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité – PF Remote</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: #f4f6f9;
+    }
+
+    header {
+      background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      opacity: 0.75;
+      font-size: 0.95rem;
+    }
+
+    main {
+      max-width: 820px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px 36px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #0f3460;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 1.2em;
+      background: #e94560;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    .badge {
+      display: inline-block;
+      background: #eaf0fb;
+      color: #0f3460;
+      border-radius: 6px;
+      padding: 2px 10px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+
+    .highlight {
+      background: #f0faf4;
+      border-left: 4px solid #27ae60;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 14px 0;
+      color: #1d6a3a;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.82rem;
+      color: #888;
+    }
+
+    a { color: #0f3460; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Politique de confidentialité</h1>
+  <p>PF Remote &nbsp;·&nbsp; Dernière mise à jour : 18 mai 2025</p>
+</header>
+
+<main>
+
+  <!-- Introduction -->
+  <section>
+    <h2>Présentation</h2>
+    <p>
+      <strong>PF Remote</strong> est une application Android permettant de surveiller à distance
+      l'état d'un groupe <em>Party Finder</em> dans le jeu en ligne
+      <em>Final Fantasy XIV Online</em>. Elle affiche en temps réel la composition du groupe
+      (taille, membres, classes) et envoie des notifications locales sur votre appareil.
+    </p>
+    <p>
+      Cette politique décrit quelles données sont traitées, comment elles le sont, et quels droits
+      vous disposez en vertu du Règlement Général sur la Protection des Données (RGPD –
+      Règlement UE 2016/679).
+    </p>
+  </section>
+
+  <!-- Données traitées -->
+  <section>
+    <h2>Données traitées par l'application</h2>
+
+    <p><strong>Données de configuration (stockées localement sur votre appareil)</strong></p>
+    <ul>
+      <li>Mode de connexion choisi (Relais ou Local)</li>
+      <li>Jeton de relais <span class="badge">relay token</span> saisi manuellement</li>
+      <li>Adresse IP / nom d'hôte et port du serveur local (si mode Local)</li>
+      <li>Préférences de notifications (activées/désactivées)</li>
+    </ul>
+
+    <p><strong>Données de jeu reçues en temps réel (non persistées)</strong></p>
+    <ul>
+      <li>Noms des personnages et serveurs (<em>World</em>) présents dans le groupe PF</li>
+      <li>Classe / job des personnages</li>
+      <li>Messages de chat du groupe PF (si la notification de chat est activée)</li>
+      <li>Taille et statut du groupe</li>
+    </ul>
+
+    <div class="highlight">
+      Ces données de jeu sont des données publiques du jeu vidéo. Elles ne contiennent pas
+      d'informations permettant d'identifier une personne physique réelle.
+    </div>
+
+    <p><strong>Données NON collectées</strong></p>
+    <ul>
+      <li>Aucune donnée personnelle (nom réel, adresse e-mail, numéro de téléphone…)</li>
+      <li>Aucun identifiant publicitaire ni suivi analytique</li>
+      <li>Aucune donnée de localisation</li>
+      <li>Aucune donnée biométrique</li>
+      <li>Aucun accès aux contacts, à la caméra ou au microphone</li>
+    </ul>
+  </section>
+
+  <!-- Finalités -->
+  <section>
+    <h2>Finalités du traitement</h2>
+    <ul>
+      <li><strong>Fonctionnement de l'application :</strong> affichage de l'état du groupe PF en temps réel.</li>
+      <li><strong>Notifications locales :</strong> vous alerter lorsqu'un membre rejoint ou quitte, que le groupe est complet, ou qu'un message de chat est reçu.</li>
+      <li><strong>Persistance des préférences :</strong> mémoriser vos réglages entre les sessions via le stockage Android <em>DataStore</em> (local, sur l'appareil uniquement).</li>
+    </ul>
+  </section>
+
+  <!-- Transmission réseau -->
+  <section>
+    <h2>Transmission de données réseau</h2>
+    <p>
+      En <strong>mode Relais</strong>, l'application établit une connexion WebSocket chiffrée
+      (WSS / TLS) vers un serveur relais intermédiaire en utilisant le jeton que vous avez saisi.
+      Les données de jeu (état du groupe, événements, messages) transitent par ce serveur
+      uniquement pour être acheminées en temps réel jusqu'à votre appareil.
+    </p>
+    <p>
+      En <strong>mode Local</strong>, l'application se connecte directement à l'adresse IP et au
+      port que vous avez configurés sur votre réseau local. Aucune donnée ne passe par un serveur
+      tiers.
+    </p>
+    <p>
+      Dans les deux cas, <strong>aucune donnée n'est enregistrée de manière permanente côté
+      serveur</strong> au-delà du routage temps réel de la session.
+    </p>
+  </section>
+
+  <!-- Base légale RGPD -->
+  <section>
+    <h2>Base légale (RGPD)</h2>
+    <p>
+      Le traitement des données de configuration repose sur votre <strong>consentement implicite</strong>
+      (article 6(1)(a) du RGPD) : vous saisissez et enregistrez vous-même ces informations dans
+      les paramètres de l'application.
+    </p>
+    <p>
+      Les données de jeu reçues en temps réel sont traitées dans le cadre de
+      l'<strong>exécution du service</strong> que vous avez demandé (article 6(1)(b)).
+    </p>
+  </section>
+
+  <!-- Conservation -->
+  <section>
+    <h2>Durée de conservation</h2>
+    <ul>
+      <li>
+        <strong>Données de configuration :</strong> conservées localement sur votre appareil
+        jusqu'à désinstallation de l'application ou effacement manuel via les paramètres Android.
+      </li>
+      <li>
+        <strong>Données de jeu en mémoire :</strong> conservées uniquement pendant la session
+        active du service de surveillance. Elles sont effacées dès l'arrêt du service.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Partage avec des tiers -->
+  <section>
+    <h2>Partage avec des tiers</h2>
+    <p>
+      Aucune donnée n'est vendue, louée ni transmise à des tiers à des fins commerciales,
+      publicitaires ou analytiques.
+    </p>
+    <p>
+      L'application n'intègre aucun SDK de tracking, d'analytics (ex. Firebase Analytics,
+      Facebook SDK) ni de publicité.
+    </p>
+  </section>
+
+  <!-- Permissions Android -->
+  <section>
+    <h2>Permissions Android utilisées</h2>
+    <ul>
+      <li><strong>INTERNET</strong> – connexion WebSocket au serveur relais ou local.</li>
+      <li><strong>FOREGROUND_SERVICE</strong> – maintien du service de surveillance en arrière-plan.</li>
+      <li><strong>POST_NOTIFICATIONS</strong> – envoi de notifications locales (Android 13+).</li>
+      <li><strong>VIBRATE</strong> – vibration lors du déclenchement de l'alarme.</li>
+      <li><strong>WAKE_LOCK</strong> – réveil de l'écran lors de l'alarme groupe complet.</li>
+      <li><strong>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</strong> – demande d'exemption à
+        l'optimisation de la batterie pour maintenir la connexion active.</li>
+    </ul>
+    <p>Aucune permission d'accès à la localisation, aux contacts, à la caméra ou au stockage
+      externe n'est requise.</p>
+  </section>
+
+  <!-- Droits RGPD -->
+  <section>
+    <h2>Vos droits (RGPD)</h2>
+    <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+    <ul>
+      <li><strong>Droit d'accès</strong> – connaître les données traitées vous concernant.</li>
+      <li><strong>Droit de rectification</strong> – corriger des données inexactes.</li>
+      <li><strong>Droit à l'effacement</strong> – demander la suppression de vos données.</li>
+      <li><strong>Droit à la portabilité</strong> – recevoir vos données dans un format lisible.</li>
+      <li><strong>Droit d'opposition</strong> – vous opposer au traitement.</li>
+    </ul>
+    <p>
+      Étant donné que toutes les données de configuration sont stockées
+      <strong>exclusivement sur votre appareil</strong>, vous pouvez exercer la majorité de ces
+      droits directement depuis les paramètres Android
+      (<em>Paramètres → Applications → PF Remote → Effacer les données</em>)
+      ou en désinstallant l'application.
+    </p>
+    <p>
+      Pour toute autre demande, vous pouvez contacter le développeur à l'adresse :
+      <a href="mailto:gwendal.lottin@gmail.com">gwendal.lottin@gmail.com</a>
+    </p>
+  </section>
+
+  <!-- Sécurité -->
+  <section>
+    <h2>Sécurité</h2>
+    <p>
+      La connexion en mode Relais utilise le protocole <strong>WSS (WebSocket Secure)</strong>
+      basé sur TLS, garantissant le chiffrement des données en transit.
+    </p>
+    <p>
+      Les préférences sont stockées via Android DataStore dans l'espace privé de l'application,
+      inaccessible aux autres applications sans accès root.
+    </p>
+  </section>
+
+  <!-- Mineurs -->
+  <section>
+    <h2>Mineurs</h2>
+    <p>
+      PF Remote n'est pas destinée aux enfants de moins de 13 ans et ne collecte sciemment aucune
+      donnée les concernant. Si vous pensez qu'un enfant a utilisé l'application et que des
+      données le concernant ont été traitées, contactez-nous à l'adresse indiquée ci-dessus.
+    </p>
+  </section>
+
+  <!-- Modifications -->
+  <section>
+    <h2>Modifications de cette politique</h2>
+    <p>
+      Cette politique peut être mise à jour pour refléter des évolutions de l'application ou des
+      exigences légales. La date de mise à jour est indiquée en haut de page. En cas de
+      changement substantiel, nous vous en informerons via la description de l'application sur
+      le Google Play Store.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Pour toute question relative à cette politique de confidentialité :
+    </p>
+    <p>
+      <strong>Développeur :</strong> Gwendal Lottin<br />
+      <strong>E-mail :</strong> <a href="mailto:gwendal.lottin@gmail.com">gwendal.lottin@gmail.com</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 PF Remote – Politique de confidentialité conforme au RGPD (UE 2016/679)
+</footer>
+
+</body>
+</html>
